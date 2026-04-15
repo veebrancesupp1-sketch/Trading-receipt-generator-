@@ -1,0 +1,16 @@
+@tailwind base;                                                                                           @tailwind components;                                                                                     @tailwind utilities;                                                                                                                                                                                                * {                                                                                                         margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+     }
+                                                                                                               body {                                                                                                      font-family: 'Inter', system-ui, sans-serif;                                                              -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
+     }
+
+     input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+       cursor: pointer;
+       opacity: 0.6;
+     }
+
+     input[type="datetime-local"]::-webkit-calendar-picker-indicator:hover {
+       opacity: 1;
+     }
